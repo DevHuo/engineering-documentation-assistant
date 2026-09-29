@@ -7,7 +7,6 @@ from typing import Protocol
 
 from .models import Chunk, SearchHit
 
-
 _TOKEN_PATTERN = re.compile(
     r"[A-Za-z0-9]+(?:[-_/.][A-Za-z0-9]+)*"
 )

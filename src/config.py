@@ -19,7 +19,7 @@ class Settings:
     top_k: int = 5
 
     @classmethod
-    def from_env(cls) -> "Settings":
+    def from_env(cls) -> Settings:
         load_dotenv()
         return cls(
             openai_api_key=os.getenv("OPENAI_API_KEY", "").strip(),

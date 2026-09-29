@@ -4,7 +4,6 @@ from openai import OpenAI
 
 from .models import AssistantResponse, SearchHit
 
-
 _SYSTEM_PROMPT = """You are an engineering documentation assistant for information retrieval.
 
 Rules:

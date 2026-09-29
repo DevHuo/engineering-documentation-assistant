@@ -89,16 +89,20 @@ class ChromaVectorStore:
         )
 
     def reset(self) -> None:
-        try:
-            self._client.delete_collection(self._collection_name)
-        except Exception:
-            # A fresh project may not yet have a collection.
-            pass
-
+     try:
+        self._client.delete_collection(self._collection_name)
+     except ValueError:
+        # A fresh project may not yet have a collection.
         self._collection = self._client.get_or_create_collection(
             name=self._collection_name,
             metadata={"hnsw:space": "cosine"},
         )
+        return
+
+     self._collection = self._client.get_or_create_collection(
+        name=self._collection_name,
+        metadata={"hnsw:space": "cosine"},
+    )
 
     def count(self) -> int:
         return int(self._collection.count())

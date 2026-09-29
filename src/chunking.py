@@ -11,7 +11,7 @@ def _normalise_for_chunking(text: str) -> str:
 
 
 def _chunk_id(document: str, page: int, chunk_index: int, text: str) -> str:
-    payload = f"{document}|{page}|{chunk_index}|{text}".encode("utf-8")
+    payload = f"{document}|{page}|{chunk_index}|{text}".encode()
     return hashlib.sha256(payload).hexdigest()[:24]
 
 

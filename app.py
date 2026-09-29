@@ -8,7 +8,6 @@ import streamlit as st
 from src.config import Settings
 from src.service import DocumentationAssistantService
 
-
 ROOT = Path(__file__).parent
 DEMO_DIR = ROOT / "demo_docs"
 
@@ -80,7 +79,7 @@ if not settings.openai_api_key:
 
 try:
     service = DocumentationAssistantService(settings)
-except Exception as exc:
+except Exception as exc:  # noqa: BLE001
     st.error(f"Could not initialise the application: {exc}")
     st.stop()
 
@@ -104,7 +103,7 @@ if index_clicked:
                     f"Indexed {stats['documents']} document(s), {stats['pages']} page(s), "
                     f"and {stats['chunks']} chunk(s)."
                 )
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001
                 st.error(f"Indexing failed: {exc}")
 
 indexed_count = service.store.count()
@@ -139,7 +138,7 @@ if ask_clicked:
         with st.spinner("Retrieving evidence and generating a grounded response..."):
             try:
                 response, hits = service.ask(question)
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001
                 st.error(f"Request failed: {exc}")
             else:
                 answer_tab, evidence_tab, trace_tab = st.tabs(
