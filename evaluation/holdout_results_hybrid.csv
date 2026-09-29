@@ -1,0 +1,13 @@
+id,question,document_hit_at_k,page_hit_at_1,page_hit_at_3,page_hit_at_k,document_reciprocal_rank,page_reciprocal_rank,first_hit_document,first_hit_page
+HOLDOUT-LED-01,"What operating modes does the CPU have, and how are those modes indicated on the front of the CPU?",True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,101
+HOLDOUT-DIAG-01,What kinds of security events can be recorded in the CPU diagnostic buffer?,True,False,True,True,1.0,0.5,S71200_G2_system_manual_en-US_en-US.pdf,133
+HOLDOUT-RESET-01,Under what conditions can an S7-1200 G2 CPU be reset to its original factory settings?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,330
+HOLDOUT-RESET-02,Which methods can be used to perform a factory reset of the CPU?,True,False,True,True,1.0,0.3333333333333333,S71200_G2_system_manual_en-US_en-US.pdf,33
+HOLDOUT-MEM-01,"Where is the user program stored in load memory, and what happens to that memory through a power loss?",True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,129
+HOLDOUT-TRACE-01,What are the TIA Portal trace and logic analyzer functions used for?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,350
+HOLDOUT-TRACE-02,Where can an S7-1200 G2 CPU save trace measurements?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,351
+HOLDOUT-BOOT-01,"What does Secure Boot verify before the boot process, and what properties of the firmware does it protect?",True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,40
+HOLDOUT-BOOT-02,"What happens to the RUN, ERROR and MAINT LEDs on an interface module when Secure Boot detects an invalid signature?",True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,54
+HOLDOUT-NFC-01,What type of device-to-device data exchange does Near Field Communication provide for the PLC?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,218
+HOLDOUT-DHCP-01,Which IP-address assignment options are available in the Ethernet address configuration?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,228
+HOLDOUT-DHCP-02,Which DHCP-related configuration field is available when the CPU obtains its IP address from a DHCP server?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,230

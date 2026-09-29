@@ -1,0 +1,13 @@
+[project]
+name = "engineering-documentation-assistant"
+version = "0.1.0"
+description = "A source-grounded RAG prototype for engineering PDF documentation."
+requires-python = ">=3.11,<3.14"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

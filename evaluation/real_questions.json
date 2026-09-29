@@ -1,0 +1,125 @@
+[
+  {
+    "id": "REAL-IP-01",
+    "question": "How should IP addresses be assigned to programming and network devices on a PROFINET network?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      224,
+      246
+    ]
+  },
+  {
+    "id": "REAL-IP-02",
+    "question": "Which Online & diagnostics function is used to assign a new IP address to an online CPU?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      226
+    ]
+  },
+  {
+    "id": "REAL-IP-03",
+    "question": "How can STEP 7 verify that a newly assigned CPU IP address has taken effect?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      227
+    ]
+  },
+  {
+    "id": "REAL-IP-04",
+    "question": "Why does each device on a PROFINET network need an IP address?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      246
+    ]
+  },
+  {
+    "id": "REAL-S7-01",
+    "question": "Which instructions are used to write to and read from a remote S7 CPU over a PROFINET connection?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      267,
+      268
+    ]
+  },
+  {
+    "id": "REAL-S7-02",
+    "question": "What access setting must be enabled for PUT and GET communication with a remote CPU?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      268,
+      269
+    ]
+  },
+  {
+    "id": "REAL-IO-01",
+    "question": "How does the CPU report configured diagnostic errors from distributed I/O components?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      271
+    ]
+  },
+  {
+    "id": "REAL-IP-05",
+    "question": "What can be done if the CPU cannot be reached using its configured IP address?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      272
+    ]
+  },
+  {
+    "id": "REAL-OPC-01",
+    "question": "What does the OPC UA server require before it can be activated, and where can that item be changed?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      275
+    ]
+  },
+  {
+    "id": "REAL-MRP-01",
+    "question": "What roles can an S7-1200 G2 CPU use in a Media Redundancy Protocol ring?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      264
+    ]
+  },
+  {
+    "id": "REAL-SERIAL-01",
+    "question": "How is biasing handled by the S7-1200 G2 CM/CB for an RS422 or RS485 network connector?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      278
+    ]
+  },
+  {
+    "id": "REAL-ONLINE-01",
+    "question": "Which TIA Portal area provides tools to set diagnostic parameters and modify the online behavior of the CPU?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      329
+    ]
+  },
+  {
+    "id": "REAL-FW-01",
+    "question": "Besides a firmware update card, which methods does the manual list for performing a firmware update?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      152
+    ]
+  },
+  {
+    "id": "REAL-POWER-01",
+    "question": "What rated voltage and voltage range are specified for a CPU 1212C DC/DC/DC?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      375
+    ]
+  },
+  {
+    "id": "REAL-ANALOG-01",
+    "question": "Which voltage measuring ranges are listed for the analog inputs in Table A-73?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [
+      442
+    ]
+  }
+]

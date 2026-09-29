@@ -1,0 +1,56 @@
+[
+  {
+    "id": "NET-01",
+    "question": "What should be checked when controller communication times out?",
+    "expected_document": "network_troubleshooting_guide.pdf",
+    "expected_pages": [2]
+  },
+  {
+    "id": "NET-02",
+    "question": "What symptoms could suggest that two devices are using the same IP address?",
+    "expected_document": "network_troubleshooting_guide.pdf",
+    "expected_pages": [3]
+  },
+  {
+    "id": "NET-03",
+    "question": "What network checks should be completed before commissioning a controller?",
+    "expected_document": "network_troubleshooting_guide.pdf",
+    "expected_pages": [1]
+  },
+  {
+    "id": "IO-01",
+    "question": "A digital input never changes state. What documentation checks are suggested?",
+    "expected_document": "io_diagnostics_guide.pdf",
+    "expected_pages": [1]
+  },
+  {
+    "id": "IO-02",
+    "question": "How should an output channel fault be investigated?",
+    "expected_document": "io_diagnostics_guide.pdf",
+    "expected_pages": [2]
+  },
+  {
+    "id": "IO-03",
+    "question": "What should be reviewed when an analogue sensor signal is unstable?",
+    "expected_document": "io_diagnostics_guide.pdf",
+    "expected_pages": [3]
+  },
+  {
+    "id": "MNT-01",
+    "question": "What checks are recommended after an unexpected controller restart?",
+    "expected_document": "maintenance_safety_guide.pdf",
+    "expected_pages": [1]
+  },
+  {
+    "id": "MNT-02",
+    "question": "What should be documented before applying a firmware change?",
+    "expected_document": "maintenance_safety_guide.pdf",
+    "expected_pages": [2]
+  },
+  {
+    "id": "MNT-03",
+    "question": "How should safety interlocks and emergency-stop functions be treated during troubleshooting?",
+    "expected_document": "maintenance_safety_guide.pdf",
+    "expected_pages": [3]
+  }
+]

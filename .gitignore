@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.chroma/
+.DS_Store
+__MACOSX/
+coverage.xml
+htmlcov/
+evaluation/results.csv
+# Intermediate scratch outputs preserved locally but not part of the canonical portfolio experiment.
+evaluation/real_results.csv
+evaluation/real_results_hybrid.csv
+evaluation/*diagnostics*.txt
+# Real vendor manuals are intentionally not committed.
+data/*.pdf
+
+# Local editor settings
+.vscode/

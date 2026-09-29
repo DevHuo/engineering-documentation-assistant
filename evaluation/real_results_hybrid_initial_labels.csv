@@ -1,0 +1,16 @@
+id,question,document_hit_at_k,page_hit_at_1,page_hit_at_3,page_hit_at_k,document_reciprocal_rank,page_reciprocal_rank,first_hit_document,first_hit_page
+REAL-IP-01,How should IP addresses be assigned to programming and network devices on a PROFINET network?,True,False,False,False,1.0,0.0,S71200_G2_system_manual_en-US_en-US.pdf,246
+REAL-IP-02,Which Online & diagnostics function is used to assign a new IP address to an online CPU?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,226
+REAL-IP-03,How can STEP 7 verify that a newly assigned CPU IP address has taken effect?,True,False,True,True,1.0,0.5,S71200_G2_system_manual_en-US_en-US.pdf,226
+REAL-IP-04,Why does each device on a PROFINET network need an IP address?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,246
+REAL-S7-01,Which instructions are used to write to and read from a remote S7 CPU over a PROFINET connection?,True,False,False,False,1.0,0.0,S71200_G2_system_manual_en-US_en-US.pdf,183
+REAL-S7-02,What access setting must be enabled for PUT and GET communication with a remote CPU?,True,False,True,True,1.0,0.5,S71200_G2_system_manual_en-US_en-US.pdf,269
+REAL-IO-01,How does the CPU report configured diagnostic errors from distributed I/O components?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,271
+REAL-IP-05,What can be done if the CPU cannot be reached using its configured IP address?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,272
+REAL-OPC-01,"What does the OPC UA server require before it can be activated, and where can that item be changed?",True,False,False,False,1.0,0.0,S71200_G2_system_manual_en-US_en-US.pdf,273
+REAL-MRP-01,What roles can an S7-1200 G2 CPU use in a Media Redundancy Protocol ring?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,264
+REAL-SERIAL-01,How is biasing handled by the S7-1200 G2 CM/CB for an RS422 or RS485 network connector?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,278
+REAL-ONLINE-01,Which TIA Portal area provides tools to set diagnostic parameters and modify the online behavior of the CPU?,True,False,True,True,1.0,0.5,S71200_G2_system_manual_en-US_en-US.pdf,338
+REAL-FW-01,"Besides a firmware update card, which methods does the manual list for performing a firmware update?",True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,152
+REAL-POWER-01,What rated voltage and voltage range are specified for a CPU 1212C DC/DC/DC?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,375
+REAL-ANALOG-01,Which voltage measuring ranges are listed for the analog inputs in Table A-73?,True,True,True,True,1.0,1.0,S71200_G2_system_manual_en-US_en-US.pdf,442

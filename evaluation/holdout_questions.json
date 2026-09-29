@@ -1,0 +1,74 @@
+[
+  {
+    "id": "HOLDOUT-LED-01",
+    "question": "What operating modes does the CPU have, and how are those modes indicated on the front of the CPU?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [101]
+  },
+  {
+    "id": "HOLDOUT-DIAG-01",
+    "question": "What kinds of security events can be recorded in the CPU diagnostic buffer?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [42]
+  },
+  {
+    "id": "HOLDOUT-RESET-01",
+    "question": "Under what conditions can an S7-1200 G2 CPU be reset to its original factory settings?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [330]
+  },
+  {
+    "id": "HOLDOUT-RESET-02",
+    "question": "Which methods can be used to perform a factory reset of the CPU?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [515]
+  },
+  {
+    "id": "HOLDOUT-MEM-01",
+    "question": "Where is the user program stored in load memory, and what happens to that memory through a power loss?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [129]
+  },
+  {
+    "id": "HOLDOUT-TRACE-01",
+    "question": "What are the TIA Portal trace and logic analyzer functions used for?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [350]
+  },
+  {
+    "id": "HOLDOUT-TRACE-02",
+    "question": "Where can an S7-1200 G2 CPU save trace measurements?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [351]
+  },
+  {
+    "id": "HOLDOUT-BOOT-01",
+    "question": "What does Secure Boot verify before the boot process, and what properties of the firmware does it protect?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [40]
+  },
+  {
+    "id": "HOLDOUT-BOOT-02",
+    "question": "What happens to the RUN, ERROR and MAINT LEDs on an interface module when Secure Boot detects an invalid signature?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [54]
+  },
+  {
+    "id": "HOLDOUT-NFC-01",
+    "question": "What type of device-to-device data exchange does Near Field Communication provide for the PLC?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [218]
+  },
+  {
+    "id": "HOLDOUT-DHCP-01",
+    "question": "Which IP-address assignment options are available in the Ethernet address configuration?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [228]
+  },
+  {
+    "id": "HOLDOUT-DHCP-02",
+    "question": "Which DHCP-related configuration field is available when the CPU obtains its IP address from a DHCP server?",
+    "expected_document": "S71200_G2_system_manual_en-US_en-US.pdf",
+    "expected_pages": [230]
+  }
+]
